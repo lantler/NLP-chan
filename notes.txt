@@ -1,0 +1,32 @@
+setup: 
+----------------
+main directory in user -> subfolders containing scraper output
+script that runs scraper exes nX per day 
+
+data sources: 
+----------------
+
+reddit
+
+
+4chan 
+
+scraper: 4chan_scraper.py
+github: https://github.com/malavmodi/4Chan-Scraper/blob/main/README.md
+output: user directory 
+Example usage: 
+-- Scraping the first 5 threads of /pol/
+
+    python 4chan_scraper.py --board_name "pol" --num_threads 5 --debug "False"
+
+boards to scrape:
+-- /pol/
+
+
+
+
+8chan 
+
+NOTES: 
+---------------
+5/22 troubleshoot subprocess.run syntax error
