@@ -9,7 +9,7 @@ def run_script():
     subprocess.run(command)
 
 # set desired time for running the script (24-hour format: HH:MM)
-desired_time = "15:20"
+desired_time = "18:00"
 
 while True:
     current_time = time.strftime("%H:%M")
